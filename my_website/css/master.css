@@ -1,0 +1,100 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background: #E4F9F5;
+  text-align: center;
+
+}
+
+h1.My_name {
+  font-family: 'Yellowtail', cursive;
+  color: #40514E;
+  font-size:  100px;
+  font-weight: normal;  
+}
+p.Who_am_i {
+  font-family: 'Nunito', sans-serif;
+  font-style: italic; 
+  color: #40514E;
+  font-size:  35px;
+  font-weight: 200;  
+}
+span.pro {
+  font-family: 'Nunito', sans-serif;
+  font-style: italic; 
+  color: #40514E;
+  font-size:  35px;
+  font-weight: bold;  
+}
+hr.one {
+  margin: auto;
+  border-style:none;
+  border-top-style: dotted ;
+  border-color: #40514E ;
+  border-width: 6px;
+  width: 420px;
+  height: 2px;
+
+}
+div.one{
+  background-color: #11999E;
+  width: 100%;
+}
+img.one{
+  width: 400px;
+  height: auto;
+}
+/* .link1 {
+  font-family: 'Myriad Pro', sans-serif;
+  font-style: normal;
+  color: white;
+  font-size:  38px;
+  position:Absolute; 
+  top:400px;
+  left:40px; 
+}
+.link2 {
+  font-family: 'Myriad Pro', sans-serif;
+  font-style: normal;
+  color: white;
+  font-size:  38px;
+  position:Absolute; 
+  top:460px;
+  left:40px; 
+}
+.link3 {
+  font-family: 'Myriad Pro', sans-serif;
+  font-style: normal;
+  color: white;
+  font-size:  38px;
+  position:Absolute; 
+  top:520px;
+  left:40px; 
+} */
+ /* 
+  .paragraph1 {
+    font-family: 'Myriad Pro', sans-serif;
+    font-style: italic;
+    color: white;
+    font-size:  38px;
+    position:Absolute; 
+    left:10px; 
+    top:125px;
+  }
+  .paragraph2 {
+    font-family: 'Myriad Pro', sans-serif;
+    font-style: normal;
+    color: white;
+    font-size:  19px;
+     position:Absolute; 
+    left:40px; 
+  }
+
+
+ */
