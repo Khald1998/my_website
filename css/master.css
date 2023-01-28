@@ -139,6 +139,7 @@
 
 }
 
+
 .major {
   font-family: 'Nunito', sans-serif;
   font-style: italic; 
@@ -186,11 +187,16 @@
 }
 .Summary {
   font-family: 'Nunito', sans-serif;
-  font-size: 1.5em;
   font-weight: 300;
   color: #545454;
   line-height: 2;
 }
+
+@media (max-width : 2000px) {.Summary{font-size:1.75em}}
+@media (max-width : 1500px) {.Summary{font-size:1.5em}}
+@media (max-width : 1000px) {.Summary{font-size:1.25em}}
+@media (max-width : 500px) {.Summary{font-size:1.0em}}
+
 .First_line{
   border-color:   #b6afaf;
   border-style: none;
@@ -214,13 +220,13 @@
   margin-right: auto;
 }
 img.cloud{
-  width: 205px;
+  width: 275px;
   height: auto;
   float: left;
   margin-right: 30px;
 }
 img.embedded_systems{
-  width: 205px;
+  width: 275px;
   height: auto;
   float: right;
   margin-left: 30px;
@@ -235,17 +241,26 @@ img.embedded_systems{
   font-weight: 700;
   text-align: left;
 }
+@media (max-width : 2000px) {.skill{font-size:1.5em}}
+@media (max-width : 1500px) {.skill{font-size:1.25em}}
+@media (max-width : 1000px) {.skill{font-size:1.0em}}
+@media (max-width : 500px) {.skill{font-size:0.75em}}
+
 
 .about_skill {
   font-family: 'Nunito', sans-serif;
   font-size: 1.5em;
   font-weight: 300;
   width: 100%;
-  margin: auto;
   color: #545454;
   line-height: 2;
-  text-align: left;
 }
+@media (max-width : 2000px) {.about_skill{font-size:1.75em}}
+@media (max-width : 1500px) {.about_skill{font-size:1.5em}}
+@media (max-width : 1000px) {.about_skill{font-size:1.25em}}
+@media (max-width : 500px) {.about_skill{font-size:1.0em}}
+
+
 .education{
   padding-top: 50px;
   padding-bottom: 50px;
