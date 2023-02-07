@@ -222,14 +222,10 @@
 img.cloud{
   width: 275px;
   height: auto;
-  float: left;
-  margin-right: 30px;
 }
 img.embedded_systems{
   width: 275px;
   height: auto;
-  float: right;
-  margin-left: 30px;
 }
 
 .skill{
