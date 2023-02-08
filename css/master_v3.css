@@ -1,22 +1,49 @@
 /* vvvvvvvvvvvvvvv BODY vvvvvvvvvvvvvvv */
-body{
+.BODY-COLOR{
   background: #F9F7F7;
 }
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ BODY ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
 
 /* vvvvvvvvvvvvvvv NAV BAR vvvvvvvvvvvvvvv */
+
 .NAV-COLOR{
   background: #222831;
 }
+
 .NAV-TEXT-COLOR{
   color: #00ADB5 !important;
 }
 .NAV-TEXT-COLOR:hover {
-  color: white !important;
+  color: black !important;
 }
+
+.NAV-border-bottom {
+  border-bottom: 1px solid #dee2e6!important;
+}
+.vr {
+  background-color: white;
+  min-height: 1.5em;
+  margin-top:auto ;
+  margin-bottom:auto ;
+}
+
+
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ NAV BAR ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
 
+/* vvvvvvvvvvvvvvv Hide the line in NAV BAR vvvvvvvvvvvvvvv */
+
+ @media screen and (max-width: 1000px) {
+  .vr {
+    display: none;
+  }
+} 
+
+/* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ Hide the line in NAV BAR ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
+          
+
 /* vvvvvvvvvvvvvvv Hamburger Menu in NAV BAR vvvvvvvvvvvvvvv */
+
+
 .navbar-toggler {
   width: 20px;
   height: 20px;
@@ -92,6 +119,7 @@ body{
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
+  /* background: linear-gradient( 263deg, rgba(34, 40, 49) 0%, rgba(238, 238, 238) 100% ); */
   background: #00ADB5;
 }
 
@@ -105,14 +133,18 @@ body{
 .My_name {
   font-family: 'Yellowtail', cursive;
   color: #276678;
+  font-size:  70px;
   font-weight: 400;
   padding-top: 150px;
 
 }
+
+
 .major {
   font-family: 'Nunito', sans-serif;
   font-style: italic; 
   color: #40514E;
+  font-size:  25px;
   font-weight: 300;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -121,44 +153,15 @@ body{
   font-family: 'Nunito', sans-serif;
   font-style: italic; 
   color: #40514E;
+  font-size:  25px;
   font-weight: bold;  
 }
 .background_image{
+  width: 350px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-@media screen and (min-width: 751px) {
-  .My_name {
-    font-size:  70px;
-  }
-  .major {
-    font-size:  25px;
-  }
-  .pro {
-    font-size:  25px;
-  }
-  .background_image{
-    width: 350px;
-  }
-
-}
-
-
-@media screen and (max-width: 750px) {
-  .My_name {
-    font-size:  35px;
-  }
-  .major {
-    font-size:  18px;
-  }
-  .pro {
-    font-size:  18px;
-  }
-  .background_image{
-    width: 250px;
-  }
 }
 
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ top_container ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
@@ -184,10 +187,15 @@ body{
 }
 .Summary {
   font-family: 'Nunito', sans-serif;
+  font-weight: 300;
   color: #545454;
   line-height: 2;
 }
 
+@media (max-width : 2000px) {.Summary{font-size:1.75em}}
+@media (max-width : 1500px) {.Summary{font-size:1.5em}}
+@media (max-width : 1000px) {.Summary{font-size:1.25em}}
+@media (max-width : 500px) {.Summary{font-size:1.0em}}
 
 .First_line{
   border-color:   #b6afaf;
@@ -201,22 +209,13 @@ body{
   border-width: 5px;  
   background-color: transparent; 
 }
-@media (max-width : 2000px) {
-  .Summary{font-size:1.75em}}
-@media (max-width : 1500px) {
-  .Summary{font-size:1.5em}}
-@media (max-width : 1000px) {
-  .Summary{font-size:1.25em}}
-@media (max-width : 500px) {
-  .Summary{font-size:1.0em}}
-
 
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ middle_container ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
 
 /* vvvvvvvvvvvvvvv Education vvvvvvvvvvvvvvv */
 
 .skill_row{
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -232,24 +231,30 @@ img.embedded_systems{
 .skill{
   color: #276678;
   font-family: 'Nunito', sans-serif;
+  font-size: 1.5em;
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
+  text-align: left;
 }
-
+@media (max-width : 2000px) {.skill{font-size:1.5em}}
+@media (max-width : 1500px) {.skill{font-size:1.25em}}
+@media (max-width : 1000px) {.skill{font-size:1.0em}}
+@media (max-width : 500px) {.skill{font-size:0.75em}}
 
 
 .about_skill {
   font-family: 'Nunito', sans-serif;
+  font-size: 1.5em;
   font-weight: 300;
   width: 100%;
   color: #545454;
   line-height: 2;
 }
-@media (max-width : 2000px) {.about_skill{font-size:1.75em} .skill{font-size:1.5em}}
-@media (max-width : 1500px) {.about_skill{font-size:1.5em} .skill{font-size:1.25em}}
-@media (max-width : 1000px) {.about_skill{font-size:1.25em} .skill{font-size:1.0em}}
-@media (max-width : 500px) {.about_skill{font-size:1.0em} .skill{font-size:0.75em}}
+@media (max-width : 2000px) {.about_skill{font-size:1.75em}}
+@media (max-width : 1500px) {.about_skill{font-size:1.5em}}
+@media (max-width : 1000px) {.about_skill{font-size:1.25em}}
+@media (max-width : 500px) {.about_skill{font-size:1.0em}}
 
 
 .education{
