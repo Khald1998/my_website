@@ -213,7 +213,7 @@ body{
 
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ middle_container ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
 
-/* vvvvvvvvvvvvvvv Education vvvvvvvvvvvvvvv */
+/* vvvvvvvvvvvvvvv lower_container vvvvvvvvvvvvvvv */
 
 .skill_row{
   width: 80%;
@@ -252,12 +252,24 @@ img.embedded_systems{
 @media (max-width : 500px) {.about_skill{font-size:1.0em} .skill{font-size:0.75em}}
 
 
+
+
+/* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ lower_container ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
+
+
+/* vvvvvvvvvvvvvvv Education vvvvvvvvvvvvvvv */
 .education{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.card-header{
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
 
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ Education ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
+
 
 /* vvvvvvvvvvvvvvv footer vvvvvvvvvvvvvvv */
 
