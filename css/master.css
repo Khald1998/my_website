@@ -267,7 +267,10 @@ img.embedded_systems{
   display: flex;
   align-items: center;
 }
+.p-auto{
+  padding: 0 auto !important;
 
+}
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ Education ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
 
 
