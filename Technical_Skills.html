@@ -1,77 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <!-- To display an HTML page correctly, a web browser must know the character set used in the page.  -->
+  <meta charset="utf-8">
+  <!-- It is Safari specific -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Page's icon -->
+  <link rel="icon" href="icons/favicon.ico">
+  <!-- Icons used in footer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- add Bootstrap to my project -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- My css code -->
+  <link rel="stylesheet" href="css/master.css">
 
-    <style>
-        table {
-          font-family: arial, sans-serif;
-          border-collapse: separate;
-          width: 50%;
-        }
-        
-        td, th {
-          border: 2px solid black;
-          text-align: left;
-          padding: 8px;
-        }
-        
-        tr:nth-child(even) {
-          background-color: #dddddd;
-        }
-        </style>
-    <title>Technical Skills</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: separate;
+      width: 50%;
+    }
+
+    td,
+    th {
+      border: 2px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+  <title>Technical Skills</title>
 </head>
-<body>
-    <h2>HTML Table</h2>
 
-    <table>
-      <tr>
-        <th>language</th>
-        <th>proficiency</th>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>Arm assembly</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>MIPS assembly</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>Verilog</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>JavaScrip</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>proficient</td>
-      </tr>
-      <tr>
-        <td>terraform</td>
-        <td>proficient</td>
-      </tr>
+<body>
+  <!-- vvvvvvvvvvvvvvv navigation bar vvvvvvvvvvvvvvv -->
+  <nav class="navbar navbar-expand-lg NAV-COLOR">
+    <div class="container-fluid">
+      <a class="navbar-brand NAV-TEXT-COLOR" href="#">Home</a>
+
+      <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link NAV-TEXT-COLOR" href="Soft_Skills.html">
+              Soft Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NAV-TEXT-COLOR" href="Technical_Skills.html">
+              Technical Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NAV-TEXT-COLOR" href="Summary.html">
+              Summary
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ navigation bar ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ -->
+
+  <div class="container">
+    <h2 class="text-center mb-5">Skills</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Proficiency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Java</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>Arm Assembly</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>MIPS Assembly</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>Verilog</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Proficient</td>
+        </tr>
+        <tr>
+          <td>Terraform</td>
+          <td>Proficient</td>
+        </tr>
+      </tbody>
     </table>
+  </div>
+
+  <!-- vvvvvvvvvvvvvvv footer vvvvvvvvvvvvvvv -->
+
+  <footer class="footer fixed-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col item social">
+          <a href="https://twitter.com/KhaledALz1998"><i class="icon ion-social-twitter"></i></a>
+          <a href="http://www.linkedin.com/in/khaled-al-zahrani"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=966580599359"><i class="icon ion-social-whatsapp"></i></a>
+          <a href="https://github.com/Khald1998"><i class="icon ion-social-github"></i></a>
+        </div>
+      </div>
+      <div class="text-center p-4">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="index.html">Khaled Alzahrani.</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ footer ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ -->
+
 </body>
+
 </html>
