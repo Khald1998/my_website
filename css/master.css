@@ -1,6 +1,9 @@
 /* vvvvvvvvvvvvvvv BODY vvvvvvvvvvvvvvv */
 body{
   background: #F9F7F7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ BODY ʌʌʌʌʌʌʌʌʌʌʌʌʌʌʌ */
 
@@ -281,6 +284,8 @@ img.embedded_systems{
   padding:50px 0;
   color:black;
   background-color:#71C9CE;
+  margin-top: auto;
+
 }
 
 .footer h3 {
