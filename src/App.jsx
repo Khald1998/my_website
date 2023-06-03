@@ -4,7 +4,7 @@ import Skills from './Pages/Skills/main'
 import Header from './Header/main'
 import Education from './Pages/Education/main'
 import Footer from './Footer/main'
-import Built from './Pages/Built/main'
+// import Built from './Pages/Built/main'
 import { useEffect } from 'react'
 
 function App() {
