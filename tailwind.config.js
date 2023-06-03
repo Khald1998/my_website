@@ -6,12 +6,13 @@ export default {
   ],
   theme: {
     dropShadow: {
-      'holy': '0 0 25px #fff',
+      'holy': '0 0 25px  #fff',
     },
     fontFamily:{
       display:["Roboto","sans-serif"],
       second:['Source Sans Pro', 'sans-serif'],
       dynamic: ['Roboto Mono', 'monospace'],
+      front:['Rajdhani', 'sans-serif'],
     },
     extend: {
       
