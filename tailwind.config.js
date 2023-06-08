@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     dropShadow: {
       'holy': '0 0 25px  #fff',
     },
@@ -13,6 +14,7 @@ export default {
       second:['Source Sans Pro', 'sans-serif'],
       dynamic: ['Roboto Mono', 'monospace'],
       front:['Rajdhani', 'sans-serif'],
+      VS:['Source Code Pro', 'monospace']
     },
     extend: {
       
